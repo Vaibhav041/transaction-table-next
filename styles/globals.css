@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+table {
+    /* margin-right: 4rem; */
+    /* border-radius: 0.5rem; */
+    border: 2px solid white;
+    border-collapse: collapse;
+    box-shadow: 0 0 0 1px white;
+    overflow: hidden;
+    /* max-width: 50rem; */
+  }
+  
+  thead {
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+  }
+  
+  
+  th,
+  td {
+    border: 2px solid white;
+    min-width: 10rem;
+    padding: 1rem;
+    line-height: 1.7;
+  }
+  
+  td {
+    font-size: 1.4rem;
+  }
